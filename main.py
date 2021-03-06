@@ -44,7 +44,7 @@ elif option==5:
     hash_object = hashlib.md5(text.encode())
     md5_hash = hash_object.hexdigest()
     print("md5 hash    : " + md5_hash)
-    print("   )
+    print("   ")
     hash_object = hashlib.sha1(text.encode())
     sha1_hash = hash_object.hexdigest()
     print("sha1 hash   : " + sha1_hash)
