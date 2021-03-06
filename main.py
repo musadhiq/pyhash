@@ -9,14 +9,14 @@ Enter Your Option :
 5 - all
 """))
 if option==1:
-    text=input("Enter Your Text")
+    text=input("Enter Your Text :")
     hash_object = hashlib.md5(text.encode())
     md5_hash = hash_object.hexdigest()
     print("md5 hash : "+ md5_hash)
     print("   ")
 
 elif option==2:
-    text = input("Enter Your Text")
+    text = input("Enter Your Text :")
     hash_object = hashlib.sha1(text.encode())
     sha1_hash = hash_object.hexdigest()
     print("sha1 hash : " + sha1_hash)
@@ -30,7 +30,7 @@ elif option==3:
     print("    ")
 
 elif option==4:
-    text=input("enter your text")
+    text=input("Enter Your Text :")
     hash_object=hashlib.sha384(text.encode())
     sha384=hash_object.hexdigest()
     print("sha384 hash : "+sha384)
