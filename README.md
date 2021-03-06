@@ -6,4 +6,6 @@ git clone https://github.com/musadhiq/pyhash.git
 
 cd pyhash
 
+python3 main.py
+
 
